@@ -2,7 +2,7 @@ install.packages("pacman")
 require(pacman)
 p_load('tidyverse', 'jsonlite')
 
-effort_pep<- read_csv("C:/Users/a.erzse.TBO/Documents/effort pep/qualtricscsv.csv")
+effort_pep<- read_csv("/Documents/effort pep/qualtricscsv.csv")
 
 effort_pep<- qualtricscsv[-c(1,2), ] %>% type_convert()
 
