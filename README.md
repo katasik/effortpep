@@ -1,1 +1,1 @@
-# effortpep
+# Effort Enjoyment PEP
